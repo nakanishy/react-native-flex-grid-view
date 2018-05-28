@@ -77,7 +77,7 @@ class GridView extends PureComponent {
 
     return (
       <View style={[{ width: itemWidth }, this.itemStyle(index)]} key={index}>
-        {render(item)}
+        {render(item, index)}
       </View>
     )
   }
